@@ -75,6 +75,18 @@ https://www.digitalocean.com/community/tutorials/how-to-install-php-7-4-and-set-
 ## Mac OS
 https://daily-dev-tips.com/posts/installing-php-on-your-mac/
 
+# php.ini changes
+
+for connecttions to postgres databases you need to make php driver extension available to do that going to your php installation path (php\php7\php.ini)
+and uncomment the flowing extension 
+
+$ By Defaul comes like this
+;extension=pdo_pgsql
+
+$ remove initial semicolon
+
+extension=pdo_pgsql
+
 # Composer need to be present. run command bellow:
 
 composer update
