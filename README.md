@@ -80,7 +80,7 @@ https://daily-dev-tips.com/posts/installing-php-on-your-mac/
 for connections to postgres databases you need to make php driver extension available to do that going to your php installation path (php\php7\php.ini)
 and uncomment the following extension 
 
-$ By Defaul comes like this
+$ By Default comes like this
 
 ;extension=pdo_pgsql
 
