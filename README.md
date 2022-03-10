@@ -40,6 +40,11 @@ https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/
 
 https://www.pgadmin.org/download/
 
+# Create new database with nam tickets
+
+see link bellow:
+https://www.guru99.com/postgresql-create-database.html
+
 # import bckTickets.bak file into postgresql
 
 https://www.pgadmin.org/docs/pgadmin4/6.3/restore_dialog.html
