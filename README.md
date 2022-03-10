@@ -25,12 +25,13 @@ cp env.example .env
 
 ## The .env.example file has the following basic configurations:
 
-DB_CONNECTION=pgsql
+```DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
 DB_DATABASE=tickets
 DB_USERNAME=postgres
 DB_PASSWORD=postgres
+```
 
 ## Composer need to be present
 
