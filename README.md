@@ -23,24 +23,24 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## Clone
+# Clone
 
 git clone https://github.com/FVSoftwareDeveloper/TicketSystemBackend
 
-## Access the bash folder
+# Access the bash folder
 
 cd TicketSystemBackend
 
-## Install postgresql
+# Install postgresql
 
 need to have postgresql already installed. if you need help to install see link bellow :
 https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/
 
-## Add your file .env
+# Add your file .env
 
 cp env.example .env
 
-## The .env file must has the following basic configurations:
+# The .env file must has the following basic configurations:
 
 ```
 APP_TIMEZONE=America/Santo_Domingo
@@ -51,24 +51,24 @@ DB_DATABASE=tickets
 DB_USERNAME=postgres
 DB_PASSWORD=postgres
 ```
-## Install PHP Version 7.4
+# Install PHP Version 7.4
 
-# Windows
+## Windows
 https://devanswers.co/install-composer-php-windows-10/
 
-## Composer need to be present
+# Composer need to be present
 
 composer update
 
-## Generate Laravel key
+# Generate Laravel key
 
 php key:generate
 
-## Migrate Databases
+# Migrate Databases
 
 php artisan migrate
 
-## Run app on port 8000
+# Run app on port 8000
 
 php artisan run serve
 
