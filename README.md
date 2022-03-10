@@ -21,7 +21,8 @@ cd TicketSystemBackend
 
 ## Install postgresql
 
-need to have postgresql already installed
+need to have postgresql already installed. if you need help to install see link bellow :
+https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/
 
 ## Add your file .env
 
