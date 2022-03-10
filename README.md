@@ -92,7 +92,7 @@ composer update
 
 php artisan key:generate
 
-# 12 - if you would like to have fake data to be insert go to step 13 or if you like to start clean and let laravel create table go to step 14
+# 12 - if you would like to have fake data to be insert go to step 14 or if you like to start clean and let laravel create table go to step 13
 
 # 13 - Migrate Databases. run command bellow:
 
@@ -104,7 +104,7 @@ https://www.pgadmin.org/docs/pgadmin4/6.3/restore_dialog.html
 
 # 15 - Run app on port 8000.
 
-php artisan run serve
+php artisan serve
 
 ## License
 
