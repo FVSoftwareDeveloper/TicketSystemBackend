@@ -23,33 +23,33 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-# Clone
+# 1 - Clone
 
 git clone https://github.com/FVSoftwareDeveloper/TicketSystemBackend
 
-# Access the bash folder
+# 2 - Access the bash folder
 
 cd TicketSystemBackend
 
-# Install postgresql
+# 3 - Install postgresql
 
 need to have postgresql already installed. if you need help to install see link bellow :
 https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/
 
-# Install pgAdmin 4
+# 4 - Install pgAdmin 4
 
 https://www.pgadmin.org/download/
 
-# Create new database with nam tickets
+# 5 - Create new database with nam tickets
 
 see link bellow:
 https://www.guru99.com/postgresql-create-database.html
 
-# Add your file .env
+# 6 - Add your file .env
 
 cp env.example .env
 
-# The .env file must has the following basic configurations:
+# 7 - The .env file must has the following basic configurations:
 
 ```
 APP_TIMEZONE=America/Santo_Domingo
@@ -60,7 +60,7 @@ DB_DATABASE=tickets
 DB_USERNAME=postgres
 DB_PASSWORD=postgres
 ```
-# Install PHP Version 7.4
+# 8 - Install PHP Version 7.4
 
 ## Windows
 https://devanswers.co/install-composer-php-windows-10/
@@ -71,7 +71,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-php-7-4-and-set-
 ## Mac OS
 https://daily-dev-tips.com/posts/installing-php-on-your-mac/
 
-# php.ini changes
+# 9 - php.ini changes
 
 for connections to postgres databases you need to make php driver extension available to do that going to your php installation path (php\php7\php.ini)
 and uncomment the following extension 
@@ -84,23 +84,25 @@ $ remove initial semicolon
 
 extension=pdo_pgsql
 
-# Composer need to be present. run command bellow:
+# 10 - Composer need to be present. run command bellow:
 
 composer update
 
-# Generate Laravel key. run command bellow:
+# 11 - Generate Laravel key. run command bellow:
 
 php artisan key:generate
 
-# Migrate Databases. run command bellow:
+# 12 - if you would like to have fake data to be insert go to step 13 or if you like to start clean and let laravel create table go to step 14
+
+# 13 - Migrate Databases. run command bellow:
 
 php artisan migrate
 
-# import bckTickets.bak file into postgresql
+# 14 - import bckTickets.bak file into postgresql
 
 https://www.pgadmin.org/docs/pgadmin4/6.3/restore_dialog.html
 
-# Run app on port 8000.
+# 15 - Run app on port 8000.
 
 php artisan run serve
 
