@@ -62,19 +62,19 @@ https://www.digitalocean.com/community/tutorials/how-to-install-php-7-4-and-set-
 ## Mac OS
 https://daily-dev-tips.com/posts/installing-php-on-your-mac/
 
-# Composer need to be present
+# Composer need to be present. run command bellow:
 
 composer update
 
-# Generate Laravel key
+# Generate Laravel key. run command bellow:
 
-php key:generate
+php artisan key:generate
 
-# Migrate Databases
+# Migrate Databases. run command bellow:
 
 php artisan migrate
 
-# Run app on port 8000
+# Run app on port 8000.
 
 php artisan run serve
 
