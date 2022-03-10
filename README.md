@@ -13,7 +13,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 ## Clone
 
-git clone
+git clone https://github.com/FVSoftwareDeveloper/TicketSystemBackend
 
 ## Access the bash folder
 
