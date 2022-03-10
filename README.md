@@ -56,6 +56,12 @@ DB_PASSWORD=postgres
 ## Windows
 https://devanswers.co/install-composer-php-windows-10/
 
+## Linux
+https://www.digitalocean.com/community/tutorials/how-to-install-php-7-4-and-set-up-a-local-development-environment-on-ubuntu-18-04
+
+## Mac OS
+https://daily-dev-tips.com/posts/installing-php-on-your-mac/
+
 # Composer need to be present
 
 composer update
