@@ -30,7 +30,9 @@ cp env.example .env
 
 ## The .env.example file has the following basic configurations:
 
-```DB_CONNECTION=pgsql
+```
+APP_TIMEZONE=America/Santo_Domingo
+DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
 DB_DATABASE=tickets
