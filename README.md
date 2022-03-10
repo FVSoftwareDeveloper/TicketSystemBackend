@@ -45,10 +45,6 @@ https://www.pgadmin.org/download/
 see link bellow:
 https://www.guru99.com/postgresql-create-database.html
 
-# import bckTickets.bak file into postgresql
-
-https://www.pgadmin.org/docs/pgadmin4/6.3/restore_dialog.html
-
 # Add your file .env
 
 cp env.example .env
@@ -99,6 +95,10 @@ php artisan key:generate
 # Migrate Databases. run command bellow:
 
 php artisan migrate
+
+# import bckTickets.bak file into postgresql
+
+https://www.pgadmin.org/docs/pgadmin4/6.3/restore_dialog.html
 
 # Run app on port 8000.
 
