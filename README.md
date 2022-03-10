@@ -40,7 +40,7 @@ https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/
 
 https://www.pgadmin.org/download/
 
-# import bckticket.bak file into postgresql
+# import bckTickets.bak file into postgresql
 
 https://www.pgadmin.org/docs/pgadmin4/6.3/restore_dialog.html
 
