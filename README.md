@@ -40,10 +40,6 @@ https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/
 
 cp env.example .env
 
-## Generate Laravel key
-
-php key:generate
-
 ## The .env file must has the following basic configurations:
 
 ```
@@ -55,10 +51,18 @@ DB_DATABASE=tickets
 DB_USERNAME=postgres
 DB_PASSWORD=postgres
 ```
+## Install PHP Version 7.4
+
+# Windows
+https://devanswers.co/install-composer-php-windows-10/
 
 ## Composer need to be present
 
 composer update
+
+## Generate Laravel key
+
+php key:generate
 
 ## Migrate Databases
 
