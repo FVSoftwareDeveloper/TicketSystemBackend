@@ -81,6 +81,7 @@ for connections to postgres databases you need to make php driver extension avai
 and uncomment the following extension 
 
 $ By Defaul comes like this
+
 ;extension=pdo_pgsql
 
 $ remove initial semicolon
