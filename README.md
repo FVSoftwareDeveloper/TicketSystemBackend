@@ -52,7 +52,7 @@ composer update
 
 php artisan migrate
 
-## Run app
+## Run app on port 8000
 
 php artisan run serve
 
