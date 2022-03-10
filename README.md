@@ -28,6 +28,10 @@ https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/
 
 cp env.example .env
 
+## Generate Laravel key
+
+php key:generate
+
 ## The .env.example file has the following basic configurations:
 
 ```
