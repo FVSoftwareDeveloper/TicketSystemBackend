@@ -19,6 +19,10 @@ git clone https://github.com/FVSoftwareDeveloper/TicketSystemBackend
 
 cd TicketSystemBackend
 
+## Install postgresql
+
+need to have postgresql already installed
+
 ## Add your file .env
 
 cp env.example .env
