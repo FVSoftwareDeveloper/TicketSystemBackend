@@ -44,7 +44,7 @@ cp env.example .env
 
 php key:generate
 
-## The .env.example file has the following basic configurations:
+## The .env file must has the following basic configurations:
 
 ```
 APP_TIMEZONE=America/Santo_Domingo
