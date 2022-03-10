@@ -36,6 +36,14 @@ cd TicketSystemBackend
 need to have postgresql already installed. if you need help to install see link bellow :
 https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/
 
+# Install pgAdmin 4
+
+https://www.pgadmin.org/download/
+
+# import bckticket.bak file into postgresql
+
+https://www.pgadmin.org/docs/pgadmin4/6.3/restore_dialog.html
+
 # Add your file .env
 
 cp env.example .env
