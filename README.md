@@ -41,7 +41,7 @@ composer update
 
 php artisan migrate
 
-## run app
+## Run app
 
 php artisan run serve
 
