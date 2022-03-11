@@ -96,7 +96,7 @@ composer update
 
 php artisan key:generate
 
-# 12 - Generate Laravel key. run command bellow:
+# 12 - Generate JWT key. run command bellow:
 
 php artisan jwt:generate
 
