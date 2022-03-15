@@ -106,6 +106,8 @@ php artisan jwt:generate
 
 php artisan migrate
 
+note: it is required to create a innitial user manual into a database
+
 # 15 - import bckTickets.bak file into postgresql
 
 https://www.pgadmin.org/docs/pgadmin4/6.3/restore_dialog.html
