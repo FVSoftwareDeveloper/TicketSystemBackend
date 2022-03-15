@@ -106,7 +106,7 @@ php artisan jwt:generate
 
 php artisan migrate
 
-note: it is required to create a innitial user manual into a database
+Note: it is required to create manual a initial user into a database
 
 # 15 - import bckTickets.bak file into postgresql
 
